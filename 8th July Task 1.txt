@@ -1,0 +1,11 @@
+1 You guys have to display name,age via user defined object in javascript with html via constructor
+2.have to buttons one button will show image and one button will hide
+3.There is a Employee Management System in your oraganization, you have to design a registration form for this system with proper validations where User Name cannot be blank, Mobile number moust be in +91-1234567890 format, Email id should be in proper format, Password should be atleast 8 characters and it must contain numeric values, password and confirm password must be matched. Provide the validations using JavaScript
+4.Print current month from current year using switch (in JS)
+
+
+git remote add origin https://github.com/Aditya999999/BashProject.git
+git push -u origin main
+
+
+Git Hub Token - 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

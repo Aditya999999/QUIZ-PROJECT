@@ -1,0 +1,25 @@
+<html>
+<head>
+</head>
+<script>
+function ValidateEmail() 
+{
+var gender = document.querySelector('input[name="gender"]:checked');
+    if (gender === null) {
+        window.alert("Gender required!");
+        return false;
+	}
+	gender.focus();
+	return true;
+}
+</script>
+<body>
+<form name="myform" method="post" action="submit.html" onsubmit="return ValidateEmail();" >
+Gender: <input type="radio" id="male" name="gender" value="male">
+<label for="male">Male</label><br>
+<input type="radio" id="female" name="gender" value="female">
+<label for="female">Female</label><br>
+<input type="submit" value="register">
+</form>
+</body>
+</html>
